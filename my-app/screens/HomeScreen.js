@@ -7,12 +7,23 @@ const HomeScreen = ({ route }) => {
   const featuredJobs = [
     { id: '1', title: 'Software Engineer', company: 'Facebook', salary: '$180,000', location: 'Accra, Ghana', logo: require('../assets/facebook.png') },
     { id: '2', title: 'Product Manager', company: 'Google', salary: '$160,000', location: 'London, UK', logo: require('../assets/google.png') },
+    { id: '3', title: 'Data Scientist', company: 'Amazon', salary: '$150,000', location: 'Seattle, WA, US', logo: require('../assets/amazon.png') },
+    { id: '4', title: 'UI/UX Designer', company: 'Spotify', salary: '$120,000', location: 'Stockholm, Sweden', logo: require('../assets/spotify.jpg') },
+    { id: '5', title: 'Cybersecurity Analyst', company: 'Microsoft', salary: '$140,000', location: 'Redmond, WA, US', logo: require('../assets/microsoft.png') },
+    { id: '6', title: 'Mobile App Developer', company: 'Uber', salary: '$130,000', location: 'San Francisco, CA, US', logo: require('../assets/uber.jpg') },
+    { id: '7', title: 'DevOps Engineer', company: 'Netflix', salary: '$145,000', location: 'Los Gatos, CA, US', logo: require('../assets/netflix.jpg') },
+    { id: '8', title: 'Blockchain Developer', company: 'Coinbase', salary: '$160,000', location: 'Remote', logo: require('../assets/coinbase.jpg') },
   ];
 
   const popularJobs = [
     { id: '1', title: 'Jr Executive', company: 'Burger King', salary: '$96,000/y', location: 'Los Angeles, US', logo: require('../assets/burgerking.png') },
     { id: '2', title: 'Product Manager', company: 'Beats', salary: '$84,000/y', location: 'Florida, US', logo: require('../assets/beats.png') },
     { id: '3', title: 'Product Manager', company: 'Facebook', salary: '$86,000/y', location: 'Florida, US', logo: require('../assets/facebook.png') },
+    { id: '4', title: 'Marketing Specialist', company: 'Nike', salary: '$75,000/y', location: 'Portland, OR, US', logo: require('../assets/nike.jpg') },
+    { id: '5', title: 'Sales Manager', company: 'Salesforce', salary: '$110,000/y', location: 'San Francisco, CA, US', logo: require('../assets/salesforce.png') },
+    { id: '6', title: 'Human Resources Manager', company: 'Procter & Gamble', salary: '$95,000/y', location: 'Cincinnati, OH, US', logo: require('../assets/pg.png') },
+    { id: '7', title: 'Financial Analyst', company: 'Goldman Sachs', salary: '$120,000/y', location: 'New York, NY, US', logo: require('../assets/goldmansachs.png') },
+    { id: '8', title: 'Content Writer', company: 'BuzzFeed', salary: '$65,000/y', location: 'Los Angeles, CA, US', logo: require('../assets/buzzfeed.png') },
   ];
 
   return (
